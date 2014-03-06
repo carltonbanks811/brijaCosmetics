@@ -1,0 +1,174 @@
+body{
+    text-align: center;
+}
+@font-face{ 
+	font-family: 'Ubuntu', sans-serif;
+	src: url('fonts/Ubuntu-L.ttf') format('truetype');
+	src: url('fonts/Ubuntu-R.ttf') format('truetype');
+	font-weight: 300, 400;
+	font-style: normal;}
+/*@font-face{ 
+	font-family: 'Ubuntu-R', sans-serif;
+	src: url('fonts/Ubuntu-R');
+	font-weight: 400;
+	font-style: normal;}*/
+
+@font-face { 
+    font-family: 'Callie Hand'; 
+    src: url('fonts/callie_hand.eot'); 
+    src: url('font/callie_hand.eot?#iefix') format('embedded-opentype'), url('font/callie_hand.svg#Callie Hand') format('svg'), url('fonts/callie_hand.woff') format('woff'), url('fonts/callie_hand.ttf') format('truetype'); 
+    font-weight: normal; 
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Trench';
+    src: url('fonts/trench100free.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Aspire';
+    src: url('fonts/Aspire-DemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;}
+.everything{
+
+    margin: auto;
+    width: 900px;
+   
+    
+    border-image: ;
+    border-radius: 3px;
+    background: white;
+}
+.header
+{
+    font-size: 70px;
+    font-family: Callie Hand;
+}
+
+.menu 
+{
+    width: 900px;
+    height:auto;
+    position: absolute;
+    margin: 0 auto;
+    float: right;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 24px;
+    font-family: Trench;
+    font-weight: bolder;
+    text-align: center;
+    //text-shadow: 3px 2px 3px #333333;
+    /*background-color: #009092;*/
+    border:;
+    border-bottom:solid;
+    border-width: 3px;
+    border-radius: ;
+    border-color: black;//#009092
+    
+}
+
+.menu ul
+{
+	height: auto;
+    width: 100%;
+    min-width:900px;
+	padding: 8px 0px;
+	margin: 0px;
+}
+.menu li{
+    display: inline;
+    padding: 20px;
+}
+.menu a
+{
+    text-decoration: none;
+    color: black;
+    padding: 8px 8px 8px 8px;
+}
+.menu a:hover{
+    color: pink;
+    border-bottom: solid #16d5bc;   
+    background-color: #FFF;
+}
+
+.img{
+    position: relative;
+    border: solid;
+    border-radius: 8px;
+
+}
+
+.img.resize{
+    width: 100px;
+    height: 100px;
+    
+
+}
+#pad{
+    margin: auto;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+
+}
+
+.US{
+    position:absolute;
+    top:75px;
+    right: 10px;
+    color: white;
+
+
+}
+.background{
+    width: 100px;
+    height: 100px;
+    font-family: Arial;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    background-size: 100px 100px;
+    background-image: url("images/ups.jpg");
+    border:solid;
+    border-radius: 8px;
+} 
+
+
+.table{
+    position: relative;
+    top: 20px;
+    margin: auto;
+    max-width:400px;
+}
+.link{
+    text-decoration: none;
+    border-color: black;
+}
+.link a:hover, a:visited, a:link, a:active{
+    border-color: black;
+    text-decoration: none;
+    color: black;
+}
+
+.about{
+	font-family: Ubuntu, sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	width: 650px;
+	border: ;
+	border-radius: 8px;
+	margin: 0 auto;
+	
+}
+.aboutBriannaImage{
+	width: 600;
+	height: auto;
+	border: ;
+	border-radius: 8px;
+}
+
+//IMAGE SLIDESHOW ON SHOP
