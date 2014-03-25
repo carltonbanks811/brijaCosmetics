@@ -6,7 +6,8 @@ body{
 	src: url('fonts/Ubuntu-L.ttf') format('truetype');
 	src: url('fonts/Ubuntu-R.ttf') format('truetype');
 	font-weight: 300, 400;
-	font-style: normal;}
+	font-style: normal;
+	}
 /*@font-face{ 
 	font-family: 'Ubuntu-R', sans-serif;
 	src: url('fonts/Ubuntu-R');
@@ -139,9 +140,10 @@ body{
 
 
 .table{
-    position: relative;
-    top: 20px;
-    margin: auto;
+	text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
     max-width:400px;
 }
 .link{
@@ -164,7 +166,7 @@ body{
 	margin: 0 auto;
 	
 }
-.aboutBriannaImage{
+.aboutBrijaImage{
 	width: 600;
 	height: auto;
 	border: ;

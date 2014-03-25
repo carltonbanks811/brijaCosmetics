@@ -31,13 +31,22 @@
     <div class="slider-wrapper theme-default">
         <div class="ribbon"></div>
         <div id="slider" class="nivoSlider">
-            <img src="nivo-slider/demo/images/nemo.jpg" alt="" />
-            <a href="http://dev7studios.com"><img src="nivo-slider/demo/images/toystory.jpg" alt="" title="#htmlcaption" /></a>
-            <img src="nivo-slider/demo/images/up.jpg" alt="" title="This is an example of a caption" />
-            <img src="nivo-slider/demo/images/walle.jpg" alt="" />
+            <a href="collections.html"><img src="nivo-slider/demo/images/nemo.jpg" alt="" title="#collections" />
+            <a href="singles.html"><img src="nivo-slider/demo/images/toystory.jpg" alt="" title="#singles" /></a>
+            <a href="lips.html"><img src="nivo-slider/demo/images/up.jpg" alt="" title="#lips" />
+            <a href="face.html"><img src="nivo-slider/demo/images/walle.jpg" alt="" title="#face" />
         </div>
-        <div id="htmlcaption" class="nivo-html-caption">
-            <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+        <div id="collections" class="nivo-html-caption">
+            <strong>Click</strong> here to <em>go</em> to <a href="#">COLLECTIONS</a>.
+        </div>
+        <div id="singles" class="nivo-html-caption">
+            <strong>Click</strong> here to <em>go</em> to <a href="#">SINGLES</a>.
+        </div>
+        <div id="lips" class="nivo-html-caption">
+            <strong>Click</strong> here to <em>go</em> to <a href="#">LIPS</a>.
+        </div>
+        <div id="face" class="nivo-html-caption">
+            <strong>Click</strong> here to <em>go</em> to <a href="#">FACE</a>.
         </div>
     </div>
 

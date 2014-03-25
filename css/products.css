@@ -1,0 +1,15 @@
+@font-face{ 
+	font-family: 'Ubuntu', sans-serif;
+	src: url('fonts/Ubuntu-L.ttf') format('truetype');
+	src: url('fonts/Ubuntu-R.ttf') format('truetype');
+	font-weight: 300, 400;
+	font-style: normal;
+}
+body {
+	font-size: 62.5%;
+	font-family: Ubuntu, sans-serif;
+	font-weight: 300;
+}
+table {
+	font-size: 1em;
+}
